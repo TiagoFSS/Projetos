@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+
+    }
+    .portifolio{
+      text-align: center;
+      background-color: black;
+    }
+    .portifolio h2{
+       color: gray;
+        font-size:  35px;
+        font-family: 'Merriweather', serif;
+font-family: 'Playfair Display', serif;
+
+      } 
+      .portifolio span{
+        color: green;
+        font-family: 'Merriweather', serif;
+font-family: 'Playfair Display', serif;
+
+    
+      }
+      .portifolio h1{
+         margin-left: 60px;
+         margin-top: 60px;
+         color: gray;
+         font-family: 'Merriweather', serif;
+         font-family: 'Playfair Display', serif;
+         
+      }
+      .meunome{
+         background-color: whitesmoke;
+      }
+     
+     .meunome h3{
+      
+        position: absolute;
+        top:15% ;
+        left: 5%;
+        padding: 60px;
+        color:green;
+        justify-content: space-between;
+        
+        font-family: 'Merriweather', serif;
+font-family: 'Playfair Display', serif;
+
+     }
+     
+     .meunome img{
+      justify-content: space-between;
+      border-radius: 50%;
+      height: 100px;
+      
+      margin-top:30px; 
+      margin-bottom: 60px;
+      
+     }
+     .meunome h1{
+      margin-top: 25px;
+      margin-bottom: 25px;
+      text-align: center;
+      font-family: 'Merriweather', serif;
+font-family: 'Playfair Display', serif;
+
+     }
+     .meunome h3{
+      text-align: center;
+      font-family: 'Merriweather', serif;
+font-family: 'Playfair Display', serif;
+margin-top: 25px;
+margin-bottom: 25px;
+justify-content: flex-end;
+     }
+     .meunome  p{
+      margin-top: 25px;
+      margin-bottom: 25px;
+      
+      color: black;
+      justify-content: space-between;
+      text-align: left;
+     }
+     .meunome p.segundo{
+      justify-content: space-between;
+      
+      color: black;
+      text-align: left;
+     }
+     .Projetos{
+      background-color: green;
+     justify-content: center;
+      display: flex;
+      flex-direction: column;
+      padding-top: 50px;
+      padding-bottom: 100px;
+      
+    
+     }
+     .Projetos h2{
+      color: black;
+      font-size:75;
+      text-align: center;
+     }
+     .card{
+      background-color: gray;
+      height: 70vh;
+      width: 50vh;
+    
+    border-radius:  20px;
+    padding: 20px 35px;
+    text-align: center;
+ margin-left: 2%;
+ margin-right: 2%;
+    
+     }
+     .card img{
+      height:100px;
+      border-radius: 10px;
+     }
+     .card h5{
+      font-size: 24px;
+      color: black;
+     }
+     .card p{
+      margin-top: 10px;
+      margin-bottom: 15px;
+      width: 13em;
+  background: gray;
+  word-wrap: break-word;
+     }
+     .card-projetos{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 100px;
+     width: auto;
+      
+   
+      
+     }
+     .card a {
+      
+      background-color: lawngreen;
+      color: #191919;
+      padding: 10px 20px;
+      border-radius: 25px;
+      cursor:pointer;
+      
+      transition: 0.5s;
+     }
+     .card a :hover{
+      background-color: transparent;
+      border: 2px solid lawngreen;
+     }
+     .footer{
+      background-color:white;
+      display: flex;
+      
+     
+   
+     
+     }
+     .footer h5{
+      color: black;
+      font-size:30px;
+     margin-bottom: 25px;
+     
+     }
+     .footer p{
+      color:green;
+      font-size: 18px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+
+     }
+     .entidade{
+      height: 20px;
+      margin-left:auto;
+      margin-right:auto;
+     }
+     .entidade a{
+      color: lawngreen;
+border-radius: 50%;
+      height: 45px;
+   justify-content: space-around;
+  
+    margin-left: 10px;
+    
+     }
+     .entidade img{
+      height: 24px;
+    
+     }
+     
+     .profissional{
+      background-color: green;
+     
+      display: flex;
+      flex-direction: column;
+      padding-top: 50px;
+      padding-bottom: 100px;
+      display: flex;
+     
+      margin-top: 100px;
+      text-align: center;
+      align-items: center;
+     }
+     .Academia{
+      background-color: green;
+     justify-content: center;
+      display: flex;
+      flex-direction: column;
+      padding-top: 50px;
+      padding-bottom: 100px;
+   margin-top: 100px;
+     }
+     .Academia h2{
+      color: black;
+      font-size:75;
+      text-align: center;
+     }
+    
