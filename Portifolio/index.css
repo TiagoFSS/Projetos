@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    
+ 
     box-sizing: border-box;
 
     }
@@ -15,42 +15,40 @@
     }
     .portifolio{
       text-align: center;
-      background-color: black;
+      background-color: #FFCE76;
     }
     .portifolio h2{
-       color: gray;
+       color: #0075F6;
         font-size:  35px;
         font-family: 'Merriweather', serif;
 font-family: 'Playfair Display', serif;
 
       } 
       .portifolio span{
-        color: green;
+        color: #1D1919;
         font-family: 'Merriweather', serif;
 font-family: 'Playfair Display', serif;
 
     
       }
       .portifolio h1{
-         margin-left: 60px;
-         margin-top: 60px;
-         color: gray;
+        
+         color: #0075F6;
          font-family: 'Merriweather', serif;
          font-family: 'Playfair Display', serif;
          
       }
       .meunome{
-         background-color: whitesmoke;
+         background-color: #0075F6;
+        
       }
      
      .meunome h3{
       
-        position: absolute;
-        top:15% ;
-        left: 5%;
-        padding: 60px;
-        color:green;
-        justify-content: space-between;
+        position: flex;
+        
+        color:#FFCE76;
+      
         
         font-family: 'Merriweather', serif;
 font-family: 'Playfair Display', serif;
@@ -62,8 +60,7 @@ font-family: 'Playfair Display', serif;
       border-radius: 50%;
       height: 100px;
       
-      margin-top:30px; 
-      margin-bottom: 60px;
+      
       
      }
      .meunome h1{
@@ -74,54 +71,42 @@ font-family: 'Playfair Display', serif;
 font-family: 'Playfair Display', serif;
 
      }
-     .meunome h3{
-      text-align: center;
-      font-family: 'Merriweather', serif;
-font-family: 'Playfair Display', serif;
-margin-top: 25px;
-margin-bottom: 25px;
-justify-content: flex-end;
-     }
+    
      .meunome  p{
       margin-top: 25px;
       margin-bottom: 25px;
       
-      color: black;
+      color:  #FFCE76;
       justify-content: space-between;
       text-align: left;
      }
-     .meunome p.segundo{
-      justify-content: space-between;
-      
-      color: black;
-      text-align: left;
-     }
+    
      .Projetos{
-      background-color: green;
+      background-color:#0900C3;
+        
      justify-content: center;
       display: flex;
       flex-direction: column;
-      padding-top: 50px;
-      padding-bottom: 100px;
-      
+     
+      border-radius: 20px;
     
      }
      .Projetos h2{
-      color: black;
+      color:#FFCE76;
       font-size:75;
       text-align: center;
      }
      .card{
-      background-color: gray;
-      height: 70vh;
-      width: 50vh;
+      background-color: #FFCE76;
     
     border-radius:  20px;
     padding: 20px 35px;
     text-align: center;
- margin-left: 2%;
- margin-right: 2%;
-    
+ margin: 5px 5px;
+align-items: center;
+    width: 300px;
+    border-radius: 20px;
+  
      }
      .card img{
       height:100px;
@@ -129,27 +114,27 @@ justify-content: flex-end;
      }
      .card h5{
       font-size: 24px;
-      color: black;
+      color:  #0900C3;
+        
      }
      .card p{
-      margin-top: 10px;
-      margin-bottom: 15px;
-      width: 13em;
-  background: gray;
+     
+  background:#FFCE76;
   word-wrap: break-word;
+ color: #0900C3;
      }
      .card-projetos{
       display: flex;
       justify-content: space-around;
-      margin-top: 100px;
+     
      width: auto;
       
-   
+   flex-wrap: wrap;
       
      }
      .card a {
       
-      background-color: lawngreen;
+      background-color:#0075F6;
       color: #191919;
       padding: 10px 20px;
       border-radius: 25px;
@@ -159,7 +144,7 @@ justify-content: flex-end;
      }
      .card a :hover{
       background-color: transparent;
-      border: 2px solid lawngreen;
+      border: 2px solid #0075F6;
      }
      .footer{
       background-color:white;
@@ -170,13 +155,13 @@ justify-content: flex-end;
      
      }
      .footer h5{
-      color: black;
+      color: #0900C3;
       font-size:30px;
      margin-bottom: 25px;
      
      }
      .footer p{
-      color:green;
+      color:#0900C3;
       font-size: 18px;
       align-items: center;
       justify-content: center;
@@ -189,7 +174,7 @@ justify-content: flex-end;
       margin-right:auto;
      }
      .entidade a{
-      color: lawngreen;
+      color: #0075F6;
 border-radius: 50%;
       height: 45px;
    justify-content: space-around;
@@ -203,29 +188,33 @@ border-radius: 50%;
      }
      
      .profissional{
-      background-color: green;
+      background-color: #0075F6;
      
       display: flex;
       flex-direction: column;
-      padding-top: 50px;
-      padding-bottom: 100px;
+     
       display: flex;
      
       margin-top: 100px;
       text-align: center;
       align-items: center;
+      border-radius: 20px;
+     }
+     .profissional h2{
+     color: #FFCE76;
      }
      .Academia{
-      background-color: green;
+      background-color:#0900C3;
      justify-content: center;
       display: flex;
       flex-direction: column;
       padding-top: 50px;
       padding-bottom: 100px;
    margin-top: 100px;
+   border-radius: 20px;
      }
      .Academia h2{
-      color: black;
+      color:  #FFCE76;
       font-size:75;
       text-align: center;
      }
